@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <title>document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form action="">
+          <h2>create an account</h2>
+          <input type="text" name="fullname" placeholder="full name" />
+          <input type="email" name="email" placeholder="E-mail" />
+          <input type="password" name="password" placeholder="Password" />
+          <input type="password" name="password" placeholder="Password again" />
+          <button type="submit" value="sign-up">sign-up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form action="">
+          <h2>sign-in</h2>
+          <input type="email" name="email" placeholder="E-mail" />
+          <input type="password" name="password" placeholder="Password" />
+          <button type="submit" value="sign-in">sign-in</button>
+          <a href="">forget my password</a>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-pannel toggle-left">
+            <h1>welcome back!</h1>
+            <p>enter your personal details</p>
+            <button class="hidden" id="login">sign-in</button>
+          </div>
+          <div class="toggle-pannel toggle-right">
+            <h1>hello friend!</h1>
+            <p>register with your personal details</p>
+            <button class="hidden" id="register">sign-up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>
